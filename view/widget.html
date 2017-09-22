@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-md-9">
+        <input class="form-control" type="text" name="video_url" placeholder="请输入视频播放地址" autofocus/>
+        <br>
+        <iframe src="" style="background: #aa759f;width: 100%;" scrolling="no" frameborder="0"></iframe>
+    </div>
+    <div class="col-md-3">
+        <div class="list-group">
+            <volist name="video_hack" id="vo">
+            <a class="list-group-item video_hack" href="javascript:;" data-url="{$vo.url}">{$vo.name}</a>
+            </volist>
+        </div>
+    </div>
+</div>
