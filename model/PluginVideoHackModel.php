@@ -1,15 +1,15 @@
 <?php
 // +----------------------------------------------------------------------
-// | ThinkCMF [ WE CAN DO IT MORE SIMPLE ]
+// | ThinkCMF5 腾讯、爱奇艺等vip视频解析接口管理插件
 // +----------------------------------------------------------------------
-// | Copyright (c) 2013-2017 http://www.thinkcmf.com All rights reserved.
+// | Copyright (c) 2016-2017 http://www.a1k4id.cn All rights reserved.
 // +----------------------------------------------------------------------
-// | Author: Dean <zxxjjforever@163.com>
+// | Author: A1k4id <04h6n4y@gmail.com>
 // +----------------------------------------------------------------------
-namespace plugins\video_hack\model; //Demo插件英文名，改成你的插件英文就行了
+namespace plugins\video_hack\model;
+
 use think\Model;
 
-//Demo插件英文名，改成你的插件英文就行了,插件数据表最好加个plugin前缀再加表名,这个类就是对应“表前缀+plugin_demo”表
 class PluginVideoHackModel extends Model
 {
     //自定义方法

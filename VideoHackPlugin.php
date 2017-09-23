@@ -1,21 +1,21 @@
 <?php
 // +----------------------------------------------------------------------
-// | ThinkCMF [ WE CAN DO IT MORE SIMPLE ]
+// | ThinkCMF5 腾讯、爱奇艺等vip视频解析接口管理插件
 // +----------------------------------------------------------------------
-// | Copyright (c) 2013-2017 http://www.thinkcmf.com All rights reserved.
+// | Copyright (c) 2016-2017 http://www.a1k4id.cn All rights reserved.
 // +----------------------------------------------------------------------
-// | Author: Dean <zxxjjforever@163.com>
+// | Author: A1k4id <04h6n4y@gmail.com>
 // +----------------------------------------------------------------------
-namespace plugins\video_hack; //Demo插件英文名，改成你的插件英文就行了
+namespace plugins\video_hack;
+
 use cmf\lib\Plugin;
 use think\Db;
 
-//Demo插件英文名，改成你的插件英文就行了
 class VideoHackPlugin extends Plugin
 {
 
     public $info = [
-        'name'        => 'VideoHack', //Demo插件英文名，改成你的插件英文就行了
+        'name'        => 'VideoHack',
         'title'       => '腾讯、爱奇艺等vip视频接口地址管理',
         'description' => '腾讯、爱奇艺等vip视频接口地址管理',
         'status'      => 1,
@@ -41,10 +41,10 @@ class VideoHackPlugin extends Plugin
     {
         $config = config('database');
         Db::execute('DROP TABLE ' . $config['prefix'] . 'video_hack');
-        return true; //卸载成功返回true，失败false
+        return true;
     }
 
-    //实现的footer_start钩子方法
+    // 钩子方法
     public function getVideoHackUrl()
     {
         $video_hack = Db::name('video_hack')->select();
