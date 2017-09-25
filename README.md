@@ -23,6 +23,19 @@ return [
 index.html
 ```
 <hook name="get_video_hack_url"/>
+<script>
+    $(function(){
+        $('iframe').height($('iframe').width() * 0.625);
+    });
+    $('a.video_hack').click(function() {
+        var url = $('input').val();
+        if (!url) {
+            return false;
+        }
+        var hack_url = $(this).attr('data-url') + url;
+        $('iframe').attr('src', hack_url);
+    });   
+</script>
 ```
 
 
