@@ -1,16 +1,14 @@
-ThinkCMF5 腾讯、爱奇艺等vip视频接口地址管理插件
+腾讯、爱奇艺等vip视频接口地址管理插件
 ===============
-### 自带8个接口地址
 
 
-### 也可作为 ThinkCMF5 插件开发参考
+插件适用于ThinkCMF5，可作为ThinkCMF5插件开发的范例
 
 
-### 前台演示地址
-[演示地址](http://a1k4id.cn/portal/video_hack/index.html)
+[前台演示地址](http://a1k4id.cn/portal/video_hack/index.html)
 
 
-### 使用方法
+### 使用范例
 hooks.php
 ```
 return [
@@ -26,3 +24,7 @@ index.html
 ```
 <hook name="get_video_hack_url"/>
 ```
+
+
+### 申明
+接口地址均来源于网络如有侵权请私信删除
