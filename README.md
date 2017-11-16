@@ -5,9 +5,6 @@
 插件适用于ThinkCMF5，可作为ThinkCMF5插件开发的范例
 
 
-[前台演示地址](http://a1k4id.cn/portal/video_hack/index.html)
-
-
 ### 使用范例
 hooks.php
 ```
