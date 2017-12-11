@@ -16,12 +16,12 @@ CREATE TABLE `cmf_video_hack` (
 --
 
 INSERT INTO `cmf_video_hack` (`id`, `name`, `url`, `create_time`, `update_time`) VALUES
-(1, '爱奇艺线路', 'http://www.dgua.xyz/webcloud/?url=', 1505199028, 1506237769),
-(2, '腾讯线路1', 'http://api.1008net.com/v.php?url=', 1505199047, 1506237856),
-(3, '腾讯线路2', 'https://www.3aym.cn/?url=', 1505199065, 1506237873),
-(4, '主线路1', 'http://000o.cc/jx/ty.php?url=', 1505199082, 1506237895),
-(5, '主线路2', 'http://jx.618g.com/?url=', 1505199099, 1506237913),
-(6, '主线路3', 'http://aikan-tv.com/?url=', 1505199118, 1506237932),
-(7, '通用线路1', 'http://api.88fenxiang.cn/duoxianlu1/66.php?v=', 1505199147, 1506237972),
-(8, '通用线路2', 'http://kppev.cn/jx.php?url=', 1505199166, 1506237990),
-(9, '特殊线路', 'http://y.mt2t.com/lines?url=', 1506238015, 1506238015);
+(1, '爱奇艺线路', 'http://www.1717yun.com/jx/ty.php?url=', 1505199028, 1512961468),
+(2, '腾讯线路1', 'http://yooomm.com/index.php?url=', 1505199047, 1512961468),
+(3, '腾讯线路2', 'http://y.mt2t.com/lines?url=', 1505199065, 1512961468),
+(4, '主线路1', 'http://suo.5aill.cn/yll/?url=', 1505199082, 1512961468),
+(5, '主线路2', 'http://api.baiyug.cn/vip/?url=', 1505199099, 1512961468),
+(6, '主线路3', 'http://lcoc.top/coc/v2.php?url=', 1505199118, 1512961468),
+(7, '通用线路1', 'http://jx.biaoge.tv/index.php?url=', 1505199147, 1512961468),
+(8, '通用线路2', 'http://api.bingdou.net/?url=', 1505199166, 1512961468),
+(9, '特殊线路', 'https://player.jidiaose.com/newsupapi/player.php?v=', 1506238015, 1512961468);
