@@ -2,9 +2,9 @@
 // +----------------------------------------------------------------------
 // | ThinkCMF5 腾讯、爱奇艺等vip视频解析接口管理插件
 // +----------------------------------------------------------------------
-// | Copyright (c) 2016-2017 http://www.a1k4id.cn All rights reserved.
+// | Copyright (c) 2016-2018 https://www.a1k4id.com All rights reserved.
 // +----------------------------------------------------------------------
-// | Author: A1k4id <04h6n4y@gmail.com>
+// | Author: A1k4id <alkaid@a1k4id.com>
 // +----------------------------------------------------------------------
 namespace plugins\video_hack;
 
@@ -21,8 +21,8 @@ class VideoHackPlugin extends Plugin
         'status'      => 1,
         'author'      => 'A1k4id',
         'version'     => '1.0',
-        'demo_url'    => 'http://www.a1k4id.cn/portal/video_hack/index.html',
-        'author_url'  => 'http://www.a1k4id.cn',
+        'demo_url'    => 'https://www.a1k4id.com/portal/video_hack/index.html',
+        'author_url'  => 'https://www.a1k4id.com',
     ];
 
     public $hasAdmin = 1; //插件是否有后台管理界面
